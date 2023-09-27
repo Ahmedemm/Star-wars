@@ -28,12 +28,12 @@ body {
   width: 100%;
   min-height: 60vh;
   top: -20px;
-  background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 1) 100%,
+    rgba(0, 0, 0, 1) 40%,
     rgba(0, 0, 0, 0) 100%
   );
+  z-index: 1;
 }
 
 h1 {
@@ -47,4 +47,5 @@ h1 {
     top: -7000px;
     transform: rotateX(21deg) translateZ(-2500px);
   }
+  
 }
